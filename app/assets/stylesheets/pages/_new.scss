@@ -1,0 +1,22 @@
+// Specific CSS for your home-page
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(10, 8%);
+    grid-template-rows: 80px auto 80px; 
+    grid-column-gap: 20px;
+  }
+  .wrapper {
+    border-radius: 5px;
+    background-color: lightblue;
+  }
+  *{
+      box-sizing: border-box;
+  }
+  .wrapper > div {
+    border: 2px solid #002486;
+    border-radius: 5px;
+    background-color: #3884ff;
+    padding: 1em;
+    color: #ffffff;
+    font-size: 15px;
+  }
